@@ -31,16 +31,16 @@ score = 0
 pass_pipes = False
 
 #load images
-bg = pygame.image.load('C:\\Users\\DELL PC\\Desktop\\Project for python\\Flappy Bird Game -- CodingWithRuss\\backgroundimg.png').convert()
-ground_img = pygame.image.load('C:\\Users\\DELL PC\\Desktop\\Project for python\\Flappy Bird Game -- CodingWithRuss\\ground.png').convert()
-button_img = pygame.image.load('C:\\Users\\DELL PC\\Desktop\\Project for python\\Flappy Bird Game -- CodingWithRuss\\restart.png').convert()
+bg = pygame.image.load('D:\\Old Projects  code\\Flappy Bird Game -- CodewithRuss\\backgroundimg.png').convert()
+ground_img = pygame.image.load('D:\\Old Projects  code\\Flappy Bird Game -- CodewithRuss\\ground.png').convert()
+button_img = pygame.image.load('D:\\Old Projects  code\\Flappy Bird Game -- CodewithRuss\\restart.png').convert()
 
 bird_images = []
 for num in range(1, 4):
-    img = pygame.image.load(f'C:\\Users\\DELL PC\\Desktop\\Project for python\\Flappy Bird Game -- CodingWithRuss\\bird{num}.png').convert_alpha()
+    img = pygame.image.load(f'D:\\Old Projects  code\\Flappy Bird Game -- CodewithRuss\\bird{num}.png').convert_alpha()
     bird_images.append(img)
 
-pipe_image = pygame.image.load('C:\\Users\\DELL PC\\Desktop\\Project for python\\Flappy Bird Game -- CodingWithRuss\\pipe.png').convert_alpha()
+pipe_image = pygame.image.load('D:\\Old Projects  code\\Flappy Bird Game -- CodewithRuss\\pipe.png').convert_alpha()
 flipped_pipe_image = pygame.transform.flip(pipe_image, False, True)
 
 ground_height = ground_img.get_height()  # Get the height of the ground image
